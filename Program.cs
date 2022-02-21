@@ -48,7 +48,7 @@ try
         return;
     }
     else{
-        if(branchAcceptance.ToLower() != "y"){
+        if(pullIntervalAcceptance.ToLower() != "y"){
             pullInterval = Convert.ToInt32(pullIntervalAcceptance.Trim());
         }
     }
